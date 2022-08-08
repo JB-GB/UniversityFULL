@@ -1,0 +1,5 @@
+REV(1.0){
+-La base de datos es almacenada en la nube para que cualquiera que descargue el archivo pueda interactuar con la pagina (dominio/db4free.net:3306)
+-Las imagenes no se llevan bien con el servidor WAMP, por lo que se hizo una insercion forzada.
+-La unica pagina que muestra fallos es la del perfil. Procurare que el error se solucione para la proxima version que se vaya a subir antes de termino de mes.
+}

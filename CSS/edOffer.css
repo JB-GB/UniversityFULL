@@ -1,0 +1,28 @@
+/*    font-family: 'Montserrat', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/*  EDUCATIVE OFFER */
+
+/*  TopTitle    */
+.toptitle h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #f3ec78;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0.7875525210084033) 0%, rgba(214,214,158,1) 25%, rgba(255,239,0,1) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    padding: 20px;
+}
+.toptitle p{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+/*  Lista de carreras */
+.carreras{
+    padding: 2vh;
+}

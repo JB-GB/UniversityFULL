@@ -1,0 +1,35 @@
+/*    font-family: 'Montserrat', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); 
+
+/*  Estilos de la pagina */
+
+/*  Carousel image/reziser  */
+.w-100 {
+    width: 100%;
+    height: 75vh;
+}
+.carousel img{
+    filter:brightness(60%);
+}
+
+/*  gradiante y zoom de texto*/
+.midvar{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, 
+        #ffecd2 0%,
+        #f3f041 50%, 
+        #536ab4 100%);
+    transition: .5s;
+    background-size: 200%;
+}
+.midvar:hover{
+    background-position: right center;
+}
+.emblem{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/31/31443.png");
+    background-size: 20%;
+    transition: .1s;
+}
+.emblem:hover{
+    background-size: 100%;
+}

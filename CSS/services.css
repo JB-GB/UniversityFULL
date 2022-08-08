@@ -1,0 +1,46 @@
+/*    font-family: 'Montserrat', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/*    font-family: 'Anek Latin', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&display=swap');
+
+.fondo{
+    background: linear-gradient(155deg, #e6ec9a, #b4bfec, #e9e1ee);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    -o-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+}
+.fondo h1{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    background-color: bisque;
+}
+.fondo h4{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    background-color:gainsboro;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
